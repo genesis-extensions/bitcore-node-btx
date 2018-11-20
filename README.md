@@ -1,4 +1,4 @@
-Bitcore Node BitCore
+Bitcore Node Genesis
 ============
 
 A BitCore full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to ~~[Bitcoin Core with additional indexing](https://github.com/bitpay/bitcoin/tree/0.12.1-bitcore)~~ for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
@@ -6,8 +6,8 @@ A BitCore full node for building applications and services with Node.js. A node 
 ## Install
 
 ```bash
-git clone https://github.com/BTXinsight/bitcore-node-btx.git
-cd bitcore-node-btx
+git clone https://github.com/genesis-extended/bitcore-node-genesis.git
+cd bitcore-node-genesis
 npm install
 bitcore-node start
 ```
@@ -37,8 +37,8 @@ This will create a directory with configuration files for your node and install 
 
 There are several add-on services available to extend the functionality of Bitcore:
 
-- [Insight API](https://github.com/BTXinsight/insight-api-btx)
-- [Insight UI](https://github.com/BTXinsight/insight-ui-btx)
+- [Insight API](https://github.com/genesis-extended/insight-api-genesis)
+- [Insight UI](https://github.com/genesis-extended/insight-ui-genesis)
 
 ## Documentation
 

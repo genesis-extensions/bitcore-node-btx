@@ -94,7 +94,7 @@ describe('#add', function() {
       var callCount = 0;
       var oldPackage = {
         dependencies: {
-          'bitcore-lib-btx': 'BTXinsight/bitcore-lib-btx',
+          'bitcore-lib-genesis': 'genesis-extended/bitcore-lib-genesis',
           'bitcore-node': '^v0.2.0'
         }
       };

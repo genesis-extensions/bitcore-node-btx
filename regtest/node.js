@@ -9,7 +9,7 @@ var log = index.log;
 log.debug = function() {};
 
 var chai = require('chai');
-var bitcore = require('bitcore-lib-btx');
+var bitcore = require('bitcore-lib-genesis');
 var rimraf = require('rimraf');
 var node;
 
@@ -77,7 +77,7 @@ describe('Node Functionality', function() {
         client = new BitcoinRPC({
           protocol: 'http',
           host: '127.0.0.1',
-          port: 30331,
+          port: 7234,
           user: 'bitcoin',
           pass: 'local321',
           rejectUnauthorized: false

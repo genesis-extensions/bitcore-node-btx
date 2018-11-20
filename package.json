@@ -1,12 +1,12 @@
 {
-  "name": "bitcore-node-btx",
-  "description": "Full node with extended capabilities using Bitcore and btx",
+  "name": "bitcore-node-genesis",
+  "description": "Full node with extended capabilities using Bitcore and genesis",
   "version": "3.1.2",
   "main": "./index.js",
-  "repository": "git://github.com/BTXinsight/bitcore-node-btx.git",
+  "repository": "git://github.com/genesis-extended/bitcore-node-genesis.git",
   "homepage": "https://bitcore.cc",
   "bugs": {
-    "url": "https://github.com/BTXinsight/bitcore-node-btx/issues"
+    "url": "https://github.com/genesis-extended/bitcore-node-genesis/issues"
   },
   "contributors": [
     {
@@ -48,13 +48,13 @@
     "coveralls": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- --recursive -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "tags": [
-    "btx",
+    "genesis",
     "bitcored"
   ],
   "dependencies": {
     "async": "^1.3.0",
     "bitcoind-rpc": "^0.6.0",
-    "bitcore-lib-btx": "git://github.com/BTXinsight/bitcore-lib-btx#master",
+    "bitcore-lib-genesis": "git://github.com/genesis-extended/bitcore-lib-genesis#master",
     "body-parser": "^1.13.3",
     "colors": "^1.1.2",
     "commander": "^2.8.1",
